@@ -1,19 +1,44 @@
 THIS IS A SAMPLE SOLUTION, PLEASE USE THIS FORMAT FOR YOUR SUBMISSIONS.
 
-1. Write a program which draws a green circle in the top-right corner of the grid.
+1. Write a program which draws a blue circle in the middle of the grid.
 
   function main() {
-    moveRight();
-    moveRight();
-    moveRight();
-    moveRight();
-    useGreen();
-    draw();
+  moveRight();
+  moveRight();
+  useBlue();
+  draw();
   }
 
-2. Write a program which draws X blue circles across the top row, where X is a variable you declare.
+2. Write a program which has a blank spot in the middle of the blue circles.
 
-  var x;
+  function main() {
+  moveRight();
+  moveRight();
+  erase();
+  }
+
+3. Write a program that has every other spot alternate between blue circle and blank.
+
+  function main() {
+  moveRight();
+  erase();
+  moveRight();
+  moveRight();
+  erase();
+  }
+
+4. Write a program that changes the 2nd and 3rd green to blue and keeps the final spot green.
+
+  function main() {
+  moveRight();
+  useBlue();
+  draw();
+  moveRight();
+  moveRight();
+  useBlue();
+  draw();
+
+5. 
 
   function main() {
     x = 3;
@@ -22,4 +47,27 @@ THIS IS A SAMPLE SOLUTION, PLEASE USE THIS FORMAT FOR YOUR SUBMISSIONS.
       draw();
       moveRight();
     }
-  }
+
+
+erase()
+moveRight();
+moveRight();
+moveRight();
+moveRight();
+useBlue();
+draw();
+onBlue();
+//g
+useGreen();
+moveRight();
+moveRight();
+moveRight();
+moveRight();
+//
+
+moveRight();
+moveRight();
+moveRight();
+moveRight();
+erase();
+
